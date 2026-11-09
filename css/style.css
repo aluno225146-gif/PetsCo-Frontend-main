@@ -1,0 +1,253 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5EBDD;
+}
+
+footer {
+    background-color: #A8B89A;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.home {
+    background-image: url("../assets/imgs/cao.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.video-home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+.texto h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 90px;
+    margin: 0;
+    letter-spacing: 3px;
+
+}
+
+.texto p {
+    font-family: 'Inter', sans-serif;
+
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.onda {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 2;
+    line-height: 0;
+    pointer-events: none;
+
+}
+
+.onda svg {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(167, 167, 167, 0.4); 
+    backdrop-filter: blur(3px);
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-weight: semi-bold;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-family: 'inter', sans-serif;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: semi-bold;
+    letter-spacing: 1px;
+    color: #5C370DC9;
+}
+
+header img {
+    height: 70px;
+    display: flex;
+
+}
+
+header #esquerdo {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+header #centro {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header #reserva {
+    background-color: #5C370DC9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    height: 30px;
+}
+
+
+header #reserva h1 {
+    color: white;
+    padding: 0;
+}
+
+
+#direito {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+
+}
+
+
+
+.prefil {
+    margin-right: 20px;
+}
+
+
+.servicos-info {
+    background-color: #A8B89A;
+    width: 80%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.servicos img {
+    height: 700px;
+}
+
+.servicos-img {
+    margin-right: 10%;
+}
+
+.servicos-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.servicos-txt h1 {
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #5C370D;
+    font-size: 64px;
+}
+
+.servicos-txt p {
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 16px;
+    max-width: 75%;
+    margin-bottom: 5%;
+}
+
+.servicos-btn a {
+    font-weight: 300;
+
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.servicos-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.servico {
+    font-family: 'Momo Trust Display', sans-serif;
+    color: #5C370D;
+}
+
+.servico h1 {
+    font-size: 24px;
+}
+
+.servico p {
+    font-size: 20px;
+}
